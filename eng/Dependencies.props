@@ -210,6 +210,7 @@ and are generated based on the last package release.
     <LatestPackageReference Include="Moq" />
     <LatestPackageReference Include="Newtonsoft.Json.Bson" />
     <LatestPackageReference Include="NSwag.ApiDescription.Client" />
+    <LatestPackageReference Include="NSwag.AspNetCore" />
     <LatestPackageReference Include="NuGet.Frameworks" />
     <LatestPackageReference Include="NuGet.Versioning" />
     <LatestPackageReference Include="Photino.NET" />
@@ -224,6 +225,7 @@ and are generated based on the last package release.
     <LatestPackageReference Include="StackExchange.Redis" />
     <LatestPackageReference Include="Swashbuckle.AspNetCore" />
     <LatestPackageReference Include="System.Reactive.Linq" />
+    <LatestPackageReference Include="Verify.Xunit"/>
     <LatestPackageReference Include="xunit.abstractions" />
     <LatestPackageReference Include="xunit.analyzers" />
     <LatestPackageReference Include="xunit.assert" />

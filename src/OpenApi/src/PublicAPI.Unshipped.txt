@@ -1,1 +1,10 @@
 #nullable enable
+IEndpointRouteBuilderExtensions
+IServiceCollectionExtensions
+OpenApiComponentService
+OpenApiComponentService.OpenApiComponentService(Microsoft.Extensions.Options.IOptions<Microsoft.AspNetCore.Http.Json.JsonOptions!>! jsonOptions) -> void
+OpenApiDocumentService
+OpenApiDocumentService.Document.get -> Microsoft.OpenApi.Models.OpenApiDocument!
+OpenApiDocumentService.OpenApiDocumentService(Microsoft.AspNetCore.Mvc.ApiExplorer.IApiDescriptionGroupCollectionProvider! apiDescriptionGroupCollectionProvider, OpenApiComponentService! openApiComponentService, Microsoft.AspNetCore.Hosting.Server.IServer! server) -> void
+static IEndpointRouteBuilderExtensions.MapOpenApiDocument(this Microsoft.AspNetCore.Routing.IEndpointRouteBuilder! endpoints, string! pattern = "/openapi.json") -> Microsoft.AspNetCore.Builder.RouteHandlerBuilder!
+static IServiceCollectionExtensions.AddOpenApi(this Microsoft.Extensions.DependencyInjection.IServiceCollection! services) -> Microsoft.Extensions.DependencyInjection.IServiceCollection!
