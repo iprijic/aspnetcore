@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BaselineGenerator": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:11225;http://localhost:11226"
+    }
+  }
+}
