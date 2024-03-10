@@ -87,11 +87,13 @@ namespace Microsoft.AspNetCore.Routing.Tree
                 var part = segment.Parts[0];
                 if (part.IsLiteral)
                 {
+#pragma warning disable CS8604 // Possible null reference argument.
                     if (!current.Literals.TryGetValue(part.Text, out var next))
                     {
                         next = new UrlMatchingNode(length: i + 1);
                         current.Literals.Add(part.Text, next);
                     }
+#pragma warning restore CS8604 // Possible null reference argument.
 
                     current = next;
                     continue;

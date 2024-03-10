@@ -15,6 +15,8 @@ extern IHttpServer* g_pHttpServer;
 // and GOAWAY or RST_STREAM frames.
 //
 
+#ifndef _HTTPSERV_H_
+
 class __declspec(uuid("1a2acc57-cae2-4f28-b4ab-00c8f96b12ec"))
     IHttpResponse4 : public IHttpResponse3
 {
@@ -53,6 +55,8 @@ public:
             _In_ BOOL fReplace
         ) = 0;
 };
+
+#endif
 
 //
 // Initialization export

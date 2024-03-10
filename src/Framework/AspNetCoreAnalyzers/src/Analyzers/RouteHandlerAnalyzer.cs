@@ -11,7 +11,9 @@ using Microsoft.CodeAnalysis.Operations;
 
 namespace Microsoft.AspNetCore.Analyzers.RouteHandlers;
 
+#pragma warning disable CA1825 // Avoid zero-length array allocations
 [DiagnosticAnalyzer(LanguageNames.CSharp)]
+#pragma warning restore CA1825 // Avoid zero-length array allocations
 public partial class RouteHandlerAnalyzer : DiagnosticAnalyzer
 {
     public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get; } = ImmutableArray.Create(new[]

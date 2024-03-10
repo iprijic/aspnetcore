@@ -127,7 +127,7 @@ namespace Microsoft.AspNetCore.Server.Kestrel.Core
         /// <remarks>
         /// Defaults to false.
         /// </remarks>
-        [Obsolete($"This property is obsolete and will be removed in a future version. It no longer has any impact on runtime behavior. Use {nameof(Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions)}.{nameof(Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.DisableAltSvcHeader)} to configure \"Alt-Svc\" behavior.", error: true)]
+        [Obsolete($"This property is obsolete and will be removed in a future version. It no longer has any impact on runtime behavior. Use {nameof(Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions)}.{nameof(Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.DisableAltSvcHeader)} to configure \"Alt-Svc\" behavior.", error: false)]
         public bool EnableAltSvc { get; set; }
 
         /// <summary>
